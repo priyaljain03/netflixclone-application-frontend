@@ -45,7 +45,6 @@ function Login() {
                 if(res.data){
                     localStorage.setItem('access_token', res.data.access)
                     axiosInstance.defaults.headers['Authorization'] = 'JWT ' + localStorage.getItem('access_token')
-                    // localStorage.setItem("refresh_token", res.data.refresh)
                     isAuthenticated()
                     navigate('/profiles')
                     

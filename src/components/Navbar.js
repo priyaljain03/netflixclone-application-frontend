@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { axiosInstance } from '../axios';
 
 const base_url = "https://image.tmdb.org/t/p/w500/"
-const baseImgUrl = 'http://localhost:8000'
+const baseImgUrl = 'https://netflixclone-backend.herokuapp.com'
 function Navbar() {
 
     const [show, handleShow] = useState(false);

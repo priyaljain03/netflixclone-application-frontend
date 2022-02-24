@@ -5,7 +5,7 @@ import { AiOutlineEdit } from "react-icons/ai";
 import { FiPlusCircle,FiEdit2 } from "react-icons/fi";
 import { handleAbort } from 'video-react/lib/actions/video';
 
-const baseUrl = 'http://localhost:8000'
+const baseUrl = 'https://netflixclone-backend.herokuapp.com'
 
 function ProfileBox(props) {
   const navigate = useNavigate()

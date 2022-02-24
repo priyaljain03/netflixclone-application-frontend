@@ -4,7 +4,7 @@ import {useLocation,Link,useNavigate} from 'react-router-dom'
 import '../css/Details.css'
 import { axiosInstance } from '../axios';
 
-const baseURL = "http://localhost:8000"
+const baseURL = "https://netflixclone-backend.herokuapp.com"
 
 function Detail(props) {
     const [movie,setMovie] = useState({})
@@ -27,7 +27,7 @@ function Detail(props) {
 
 
     return (<div className="wrapper" >
-        <div className="banner" style={{background:`url("http://localhost:8000${movie.flyer}")`,backgroundSize:'cover'}}>
+        <div className="banner" style={{background:`url("https://netflixclone-backend.herokuapp.com${movie.flyer}")`,backgroundSize:'cover'}}>
         <Navbar />
         <div className="banner__content">
             <h1 className="banner__title">{movie.title}</h1>

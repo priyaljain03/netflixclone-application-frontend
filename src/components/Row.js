@@ -3,7 +3,7 @@ import '../css/Row.css'
 import { axiosInstance } from '../axios';
 import { useNavigate } from 'react-router-dom';
 
-const base_url = "http://localhost:8000"
+const base_url = "https://netflixclone-backend.herokuapp.com"
 
 function Row(props) {
     const [movies, setMovies] = useState([])
