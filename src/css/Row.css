@@ -1,0 +1,264 @@
+
+@media only screen and (max-width: 480px) {
+  /* Mobile Devices */
+  .row {
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    top:0px;
+    margin:0%
+  }
+  
+  .row__posters {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y:hidden
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .row__posters img {
+    height: 80px;
+    width: 200px;
+    object-fit: cover;
+    margin-right: 4px;
+    margin-left: 4px;
+    transition: transform 500ms;
+  }
+  
+  .row__posters img:hover {
+    transform: scale(1.2);
+  }
+  
+  .row__posters__Large {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y:hidden
+  }
+  
+  .row__posters__Large img {
+    height: 160px;
+    width: 100px;
+    object-fit: cover;
+    margin: 4px;
+    transition: transform 500ms;
+  }
+  
+  .row__posters__Large img:hover {
+    transform: scale(1.2);
+  }
+  
+}
+
+@media only screen and (min-width:481px) and (max-width: 768px) {
+ /* IPADs */
+/* Tablets */
+.row {
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  top:0px;
+  margin:0%
+  /* overflow-x: scroll; */
+}
+
+.row__posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y:hidden
+  /* margin: 0px !important; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.row__posters img {
+  height: 80px;
+  width: 200px;
+  object-fit: cover;
+  margin-right: 4px;
+  margin-left: 4px;
+  transition: transform 500ms;
+}
+
+.row__posters img:hover {
+  transform: scale(1.2);
+}
+
+.row__posters__Large {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y:hidden
+}
+.row__posters__Large img {
+  height: 160px;
+  width: 100px;
+  object-fit: cover;
+  margin: 4px;
+  transition: transform 500ms;
+}
+
+.row__posters__Large img:hover {
+  transform: scale(1.2);
+}
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px) {
+ /* Small Screen Laptops */
+ .row {
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  top:0px;
+  margin:0%
+  /* overflow-x: scroll; */
+}
+
+.row__posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y:hidden
+  /* margin: 0px !important; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.row__posters img {
+  height: 100px;
+  width: 250px;
+  object-fit: cover;
+  margin-right: 4px;
+  margin-left: 4px;
+  transition: transform 500ms;
+}
+
+.row__posters img:hover {
+  transform: scale(1.2);
+}
+
+.row__posters__Large {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y:hidden
+}
+.row__posters__Large img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  margin: 4px;
+  transition: transform 500ms;
+}
+
+.row__posters__Large img:hover {
+  transform: scale(1.2);
+}
+
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+  /* Desktops */
+  .row {
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    top:0px;
+    margin:0%
+    /* overflow-x: scroll; */
+  }
+  
+  .row__posters {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y:hidden
+    /* margin: 0px !important; */
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .row__posters img {
+    height: 100px;
+  width: 250px;
+    object-fit: cover;
+    margin-right: 4px;
+    margin-left: 4px;
+    transition: transform 500ms;
+  }
+  
+  .row__posters img:hover {
+    transform: scale(1.2);
+  }
+  
+  .row__posters__Large {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y:hidden
+  }
+  .row__posters__Large img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    margin: 4px;
+    transition: transform 500ms;
+  }
+  
+  .row__posters__Large img:hover {
+    transform: scale(1.2);
+  }
+  
+}
+
+@media only screen and (min-width:1201px) {
+/* Extra large screens,TV */
+.row {
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  top:0px;
+  margin:0%
+  /* overflow-x: scroll; */
+}
+
+.row__posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y:hidden
+  /* margin: 0px !important; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.row__posters img {
+  height: 100px;
+  width: 250px;
+  object-fit: cover;
+  margin-right: 4px;
+  margin-left: 4px;
+  transition: transform 500ms;
+}
+
+.row__posters img:hover {
+  transform: scale(1.2);
+}
+
+.row__posters__Large {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y:hidden
+}
+.row__posters__Large img {
+  height: 200px;
+  width: 150px;
+  object-fit: cover;
+  margin: 4px;
+  transition: transform 500ms;
+}
+
+.row__posters__Large img:hover {
+  transform: scale(1.2);
+}
+
+}

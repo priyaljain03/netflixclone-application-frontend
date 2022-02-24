@@ -1,0 +1,62 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  z-index: 1;
+  padding: 20px;
+  height: 15px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav_logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.right__items{
+  
+}
+
+.nav_avatar {
+  position: absolute;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.home__logout{
+  height: 25px;
+  width: 85px;
+  border-radius: 3px;
+  background-color: #e50914 !important;
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  right: 40px;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display:  inline-block;
+}
+
+.dropbtn{
+  
+}
+
+.dropbtn img{
+  width:30px;
+  margin-right:40px
+}

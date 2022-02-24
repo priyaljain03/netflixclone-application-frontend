@@ -1,0 +1,220 @@
+.profiles {
+    background-color: rgb(32, 32, 32);
+    height: 710px;
+}
+
+.header{
+    display:flex;
+}
+
+.header img{
+    height:30px;
+    padding:20px
+}
+
+.profiles__body{
+    width:40%;
+    margin:auto;
+    text-align: center;
+}
+
+.profiles__body h1{
+    text-align: center;
+    font-size:40px;
+    color:white
+}
+
+.profiles__list{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.manage__btn{
+    background: transparent;
+    border:1px solid white;
+    opacity:0.4;
+    height:40px;
+    width:150px;
+    color:white;
+    margin-top:30px;
+}
+
+.manage__btn a{
+    text-decoration: none;
+}
+.manage__btn:hover{
+    opacity:1
+}
+
+@media only screen and (max-width: 480px) {
+    /* Mobile Devices */
+    .profiles {
+        background-color: rgb(32, 32, 32);
+        height: 100vh;
+        width:100vw;
+    }
+    
+    .header{
+        display:flex;
+    }
+    
+    .header img{
+        height:20px;
+        padding:24px
+    }
+    
+    .profiles__body{
+        width:80%;
+        margin:auto;
+        text-align: center;
+    }
+    
+    .profiles__body h1{
+        text-align: center;
+        font-size:30px;
+        color:white
+    }
+    
+    .profiles__list{
+        display:flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    
+    .manage__btn{
+        background: transparent;
+        border:1px solid white;
+        opacity:0.4;
+        height:40px;
+        width:150px;
+        color:white;
+        margin-top:30px;
+    }
+    
+    .manage__btn a{
+        text-decoration: none;
+    }
+    .manage__btn:hover{
+        opacity:1
+    }
+  }
+  
+  @media only screen and (min-width:481px) and (max-width: 768px) {
+   /* IPADs */
+  /* Tablets */
+  .profiles {
+    background-color: rgb(32, 32, 32);
+    height: 100vh;
+    width:100vw;
+}
+
+.header{
+    display:flex;
+}
+
+.header img{
+    height:30px;
+    padding:20px
+}
+
+.profiles__body{
+    width:80%;
+    margin:auto;
+    text-align: center;
+}
+
+.profiles__body h1{
+    text-align: center;
+    font-size:30px;
+    color:white
+}
+
+.profiles__list{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.manage__btn{
+    background: transparent;
+    border:1px solid white;
+    opacity:0.4;
+    height:40px;
+    width:150px;
+    color:white;
+    margin-top:30px;
+}
+
+.manage__btn a{
+    text-decoration: none;
+}
+.manage__btn:hover{
+    opacity:1
+}
+  }
+  
+  @media only screen and (min-width:769px) and (max-width: 1024px) {
+   /* Small Screen Laptops */
+   .profiles {
+    background-color: rgb(32, 32, 32);
+    height: 100vh;
+    width:100vw
+}
+
+.header{
+    display:flex;
+}
+
+.header img{
+    height:30px;
+    padding:20px
+}
+
+.profiles__body{
+    width:40%;
+    margin:auto;
+    text-align: center;
+}
+
+.profiles__body h1{
+    text-align: center;
+    font-size:30px;
+    color:white
+}
+
+.profiles__list{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.manage__btn{
+    background: transparent;
+    border:1px solid white;
+    opacity:0.4;
+    height:40px;
+    width:150px;
+    color:white;
+    margin-top:30px;
+}
+
+.manage__btn a{
+    text-decoration: none;
+}
+.manage__btn:hover{
+    opacity:1
+}
+
+  }
+  
+  @media only screen and (min-width:1024px) and (max-width: 1200px) {
+    /* Desktops */
+   
+  }
+  
+  @media only screen and (min-width:1201px) {
+  /* Extra large screens,TV */
+  
+  }
+  

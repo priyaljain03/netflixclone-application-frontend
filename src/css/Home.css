@@ -1,0 +1,355 @@
+.home__topwrapper {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/c16cf196-e89e-4c46-8cc7-f2eca6fb0762/8a1bf43e-747e-44e3-a3b6-77a055300254/IN-en-20220103-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  height: 750px;
+}
+
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.home__login {
+  height: 25px;
+  width: 85px;
+  border-radius: 3px;
+  background-color: #e50914 !important;
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.home__contents {
+  color: white;
+  text-align: center;
+  margin-top: 110px;
+  bottom: 0px;
+  height: 400px;
+
+}
+
+.fadeBottom__class{
+  color: white;
+  text-align: center;
+  margin-top: 110px;
+  bottom: 0px;
+  height: 500px;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.8),
+    #111
+  );
+}
+
+.fadeTop{
+  height:100px;
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    rgba(37, 37, 37, 0.8),
+    #111
+  );
+}
+.home__contents h1 {
+  font-weight: 650;
+  font-size: 50px;
+}
+
+.home__contents h4 {
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 50px;
+}
+
+.home__contents p {
+  margin-top: 50px;
+}
+
+.home__contents form {
+  display: flex;
+  height: 30px;
+  width: 500px;
+  margin: auto;
+}
+.home__contents input {
+  height: 100%;
+  width: 300px;
+  padding: 10px;
+}
+
+.home__contents input:focus {
+  transition: scale(1.09);
+}
+
+.home__contents button {
+  height: 180%;
+  width: 200px;
+  background-color: #e50914;
+  border: none;
+  color: white;
+}
+
+
+.home__logo {
+  height: 20px;
+  width: 80px;
+}
+
+buttons {
+  height: 300px !important;
+}
+
+.home__signin {
+  height: 35px;
+  width: 85px;
+  border-radius: 3px;
+  background-color: #e50914;
+  border: none;
+  color: white;
+}
+
+.home__login {
+  background-color: #111;
+  opacity: 0.9;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width: 480px)
+{
+  .home__topwrapper {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/c16cf196-e89e-4c46-8cc7-f2eca6fb0762/8a1bf43e-747e-44e3-a3b6-77a055300254/IN-en-20220103-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .home__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .home__login {
+    height: 20px;
+    width: 55px;
+    border-radius: 3px;
+    background-color: #e50914 !important;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .home__contents {
+    color: white;
+    text-align: center;
+    margin-top: 10px !important;
+    /* bottom: 0px; */
+    height: 300px;
+    padding:2%
+  }
+  
+  .fadeBottom__class{
+    color: white;
+    text-align: center;
+    margin-top: 110px;
+    bottom: 0px;
+    height: 500px;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.8),
+      #111
+    );
+  }
+  
+  .fadeTop{
+    height:100px;
+    background-image: linear-gradient(
+      0deg,
+      transparent,
+      rgba(37, 37, 37, 0.9),
+      #111
+    );
+  }
+
+  .home__contents h1 {
+    font-weight: 650;
+    font-size: 35px;
+  }
+  
+  .home__contents h4 {
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: 50px;
+  }
+  
+  .home__contents p {
+    margin-top: 10px;
+    padding:20px
+  }
+  
+  .home__contents form {
+    display: block;
+    height: 30px;
+    width: 360px;
+    margin: auto;
+  }
+
+  .home__contents input {
+    height: 70%;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .home__contents input:focus {
+    transition: scale(1.09);
+  }
+  
+  .home__contents button {
+    height: 150%;
+    width: 100px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    margin-top:5%
+  }
+  
+  .home__logo {
+    height: 20px;
+    width: 80px;
+  }
+  
+  /* buttons {
+    height: 300px !important;
+  } */
+  
+  /* .home__signin {
+    height: 35px;
+    width: 85px;
+    border-radius: 3px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+  }
+   */
+  /* .home__login {
+    background-color: #111;
+    opacity: 0.9;
+  } */
+  
+}
+
+
+@media only screen and (min-width:481px) and (max-width: 768px)
+{
+  .home__topwrapper {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/c16cf196-e89e-4c46-8cc7-f2eca6fb0762/8a1bf43e-747e-44e3-a3b6-77a055300254/IN-en-20220103-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    height: 100%;
+    /* overflow-x: hidden; */
+  }
+  
+  .home__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .home__login {
+    height: 25px;
+    width: 65px;
+    border-radius: 3px;
+    background-color: #e50914 !important;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .home__contents {
+    color: white;
+    text-align: center;
+    margin-top: 10px !important;
+  }
+  
+  .fadeBottom__class{
+    color: white;
+    text-align: center;
+    margin-top: 110px;
+    bottom: 0px;
+    height: 500px;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.8),
+      #111
+    );
+  }
+  
+  .fadeTop{
+    height:200px;
+    background-image: linear-gradient(
+      0deg,
+      transparent,
+      rgba(37, 37, 37, 0.8),
+      #111
+    );
+  }
+
+  .home__contents h1 {
+    font-weight: 650;
+    font-size: 45px;
+  }
+  
+  .home__contents h4 {
+    font-size: 25px;
+    margin-top: 5px;
+    font-weight: 50px;
+  }
+  
+  .home__contents p {
+    margin-top: 10px;
+    padding:20px
+  }
+  
+  .home__contents form {
+    display: block;
+    height: 40px;
+    width: 360px;
+    margin: auto;
+  }
+
+  .home__contents input {
+    height: 70%;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .home__contents input:focus {
+    transition: scale(1.09);
+  }
+  
+  .home__contents button {
+    height: 150%;
+    width: 100px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    margin-top:5%
+  }
+  
+  .home__logo {
+    height: 20px;
+    width: 80px;
+  }
+}
+@media only screen and (min-width:769px) and (max-width: 1024px)
+{}
+@media only screen and (min-width:1025px) and (max-width: 1200px)
+{}
+@media only screen and (min-width:1201px) 
+{}

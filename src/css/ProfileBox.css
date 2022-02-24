@@ -1,0 +1,270 @@
+@media only screen and (max-width: 480px) {
+    /* Mobile Devices */
+    .profile__wrapper{
+        display:block;
+        margin-right:2%
+    }
+    
+    .profile__imgbox{
+        /* background-image: <img src={`${baseUrl}${props.image}`}; */
+        background-size:cover;
+        height: 80px;
+        width:80px;
+    }
+    
+    .profile__imgbox:hover{
+        border:2px solid white
+    }
+    
+    
+    .profile__imgfade{
+        opacity: 0.3;    
+        /* background-color: rgba(0, 0, 0, 0.3); */
+    }
+    
+    .profile__name{
+        color:white
+    }
+    
+    .addProfile{
+        color:white;
+        font-size:40px;
+        text-align: center;
+        opacity: 0.4;
+        margin-top:23%
+    }
+    
+    .addProfile:hover{
+        opacity:1;
+        border:none
+    }
+    
+    .editProfile{
+        color:white;
+        font-size:40px;
+        opacity:1 !important;
+        margin-top:35% ;
+        cursor:pointer
+    }
+    
+    .editProfile:hover{
+        opacity:1
+    }
+    
+  }
+  
+  @media only screen and (min-width:481px) and (max-width: 768px) {
+   /* IPADs */
+  /* Tablets */
+  .profile__wrapper{
+    display:block;
+    margin-right:3%
+    }
+
+.profile__imgbox{
+    background-size:cover;
+    height: 100px;
+    width:100px;
+}
+
+.profile__imgbox:hover{
+    border:2px solid white
+}
+
+
+.profile__imgfade{
+    opacity: 0.3;    
+}
+
+.profile__name{
+    color:white
+}
+
+.addProfile{
+    color:white;
+    font-size:50px;
+    text-align: center;
+    opacity: 0.4;
+    margin-top:20%
+}
+
+.addProfile:hover{
+    opacity:1;
+    border:none
+}
+
+.editProfile{
+    color:white;
+    font-size:30px;
+    opacity:1 !important;
+    margin-top:35% ;
+    cursor:pointer
+}
+
+.editProfile:hover{
+    opacity:1
+}
+}
+  
+  @media only screen and (min-width:769px) and (max-width: 1024px) {
+   /* Small Screen Laptops */
+   .profile__wrapper{
+    display:block;
+    margin-right:3%
+}
+
+.profile__imgbox{
+    /* background-image: <img src={`${baseUrl}${props.image}`}; */
+    background-size:cover;
+    height: 110px;
+    width:110px;
+}
+
+.profile__imgbox:hover{
+    border:2px solid white
+}
+
+
+.profile__imgfade{
+    opacity: 0.3;    
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.profile__name{
+    color:white
+}
+
+.addProfile{
+    color:white;
+    font-size:60px;
+    text-align: center;
+    opacity: 0.4;
+    margin-top:20%
+}
+
+.addProfile:hover{
+    opacity:1;
+    border:none
+}
+
+.editProfile{
+    color:white;
+    font-size:30px;
+    opacity:1 !important;
+    margin-top:35% ;
+    cursor:pointer
+}
+
+.editProfile:hover{
+    opacity:1
+}
+  }
+  
+  @media only screen and (min-width:1024px) and (max-width: 1200px) {
+    /* Desktops */
+    .profile__wrapper{
+        display:block;
+        margin-right:3%
+    }
+    
+    .profile__imgbox{
+        /* background-image: <img src={`${baseUrl}${props.image}`}; */
+        background-size:cover;
+        height: 130px;
+        width:130px;
+    }
+    
+    .profile__imgbox:hover{
+        border:2px solid white
+    }
+    
+    
+    .profile__imgfade{
+        opacity: 0.3;    
+        /* background-color: rgba(0, 0, 0, 0.3); */
+    }
+    
+    .profile__name{
+        color:white
+    }
+    
+    .addProfile{
+        color:white;
+        font-size:60px;
+        text-align: center;
+        opacity: 0.4;
+        margin-top:20%
+    }
+    
+    .addProfile:hover{
+        opacity:1;
+        border:none
+    }
+    
+    .editProfile{
+        color:white;
+        font-size:40px;
+        opacity:1 !important;
+        margin-top:35% ;
+        cursor:pointer
+    }
+    
+    .editProfile:hover{
+        opacity:1
+    }
+  }
+  
+  @media only screen and (min-width:1201px) {
+  /* Extra large screens,TV */
+  .profile__wrapper{
+    display:block;
+    margin-right: 3%;
+}
+
+.profile__imgbox{
+    /* background-image: <img src={`${baseUrl}${props.image}`}; */
+    background-size:cover;
+    height: 130px;
+    width:130px;
+}
+
+.profile__imgbox:hover{
+    border:2px solid white
+}
+
+
+.profile__imgfade{
+    opacity: 0.3;    
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.profile__name{
+    color:white
+}
+
+.addProfile{
+    color:white;
+    font-size:60px;
+    text-align: center;
+    opacity: 0.4;
+    margin-top:20%
+}
+
+.addProfile:hover{
+    opacity:1;
+    border:none
+}
+
+.editProfile{
+    color:white;
+    font-size:40px;
+    opacity:1 !important;
+    margin-top:35% ;
+    cursor:pointer
+}
+
+.editProfile:hover{
+    opacity:1
+}
+  }
+  

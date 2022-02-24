@@ -1,0 +1,118 @@
+.create__profileform{
+    background-color:rgb(29, 28, 28);
+    display:flex;
+    height:700px
+    /* justify-content:space-around; */
+}
+
+.create__profileform img{
+    height:20px;
+    object-fit:contain;
+    padding:10px
+}
+
+.container{
+    display:block;
+    margin:auto;
+    width:40%;
+    margin-top:0px
+}
+
+.container hr{
+    color:gray !important
+}
+
+.form__wrapper{
+    display:flex;
+    padding:20px
+}
+
+.form__wrapper img{
+    height:20px;
+    width:280px;
+}
+
+.form__wrapper form {
+    padding:20px;
+    width:100%;
+    text-align: left;
+    color:gray
+}
+
+.form__wrapper input{
+    display: block;
+    height:30px;
+    background-color: gray;
+    border:none;
+    width:100%;
+    margin-left:0px;
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:30px;
+    padding-left: 10px;
+}
+
+.form__wrapper input::placeholder{
+    color:white
+}
+
+
+.form__wrapper select{
+    background-color: #333;
+    width:50%;
+    height:25px;
+    color:white;
+    font-weight:bold;
+    display:block;
+    border:none;
+    margin-top:10px
+}
+.container h1{
+    color:white;
+    font-weight:400;
+    font-size:50px;
+    text-align: left;
+    margin-top:0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #333;
+}
+
+.create__buttons{
+    margin:10px;
+    margin-top:20px;
+    border-top:1px solid #333
+}
+
+.save__button{
+    background-color:white;
+    border:none;
+    height: 40px;
+    width:100px;
+    margin-right:10px;
+    margin-top:20px;
+    font-weight: 600;
+}
+
+.save__button:hover{
+    background-color:orangered;
+    color:white;
+
+}
+.cancel__button{
+    background: transparent;
+    border:1px solid white;
+    height: 40px;
+    width:100px;
+    font-weight: 600;
+    color: white;
+    margin-top:20px;
+    opacity: 0.5;
+}
+
+.cancel__button:hover{
+    opacity: 1;
+}
+
+
+
+
