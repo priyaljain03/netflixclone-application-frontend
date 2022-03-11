@@ -12,7 +12,6 @@ function Profiles() {
         axiosInstance.get(`user/profiles/`)
         .then(res=>{
             setprofiles(res.data)
-            console.log(res.data)
         })
     },[])
 
@@ -24,6 +23,7 @@ function Profiles() {
     <div className="profiles">
         <div className="header">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png"></img>
+            <Link to="/logout" className="home__logout" >Logout</Link>
         </div>
         <div className="profiles__body">
             <h1>Who's Watching ?</h1>

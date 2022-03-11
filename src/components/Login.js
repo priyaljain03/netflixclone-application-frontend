@@ -69,7 +69,7 @@ function Login() {
                    {errors.otherErrors}
                   </div> : ""}
                     <form className="login__form" onSubmit={handleSubmit}>
-                        <input name="email" type="email" autocomplete='off' placeholder="Email" onChange={handleChange} className={errors.passwordError !== "" ? "error__boundary" : ""} />
+                        <input name="email" type="email" autoComplete='off' placeholder="Email" onChange={handleChange} className={errors.passwordError !== "" ? "error__boundary" : ""} />
                         {errors.emailError !== "" ? <p className="error__text">{errors.emailError}</p> : ""}
 
                         <input className={errors.passwordError !== "" ? "error__boundary" : ""} name="password" type="password" placeholder="Password" onChange={handleChange} />

@@ -4,6 +4,7 @@ import { axiosInstance } from '../axios';
 import { useNavigate } from 'react-router-dom';
 
 const base_url = "https://netflixclone-backend.herokuapp.com"
+// const base_url = "http://localhost:8000"
 
 function Row(props) {
     const [movies, setMovies] = useState([])
@@ -22,8 +23,7 @@ function Row(props) {
                 .then((res => {
                     setMovies(res.data)
                 })).catch(err => {
-                    console.log(err.message)
-                    console.log("No movies presenrt")
+                  
                 })
             }
     }, [])
@@ -32,7 +32,7 @@ function Row(props) {
         <h4>{title}</h4>
         <div className={`row__posters${props.isLargeRow ? "__Large" : ""}`}>
             {movies.map((movie) => {
-                return <img key={movie.id} onClick={() => navigate('/detail', { state: movie })} src={`${base_url}${movie.flyer}`} alt={movie.title}></img>
+                return <img key={movie.id} onClick={() => navigate('/detail', { state: movie })} src={`${movie.flyer}`} alt={movie.title}></img>
             })}
         </div>
     </div>;

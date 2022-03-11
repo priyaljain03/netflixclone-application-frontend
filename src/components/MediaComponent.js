@@ -5,7 +5,7 @@ import { Player } from 'video-react';
 
 function MediaComponent(props) {
   const state = useLocation()
-  console.log(state)
+
   return (
     <Player
       playsInline

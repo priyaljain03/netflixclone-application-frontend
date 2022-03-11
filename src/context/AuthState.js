@@ -15,16 +15,13 @@ function AuthState(props) {
         if(token){
         const tokenParts = JSON.parse(atob(token.split('.')[1]));
         const now = Math.ceil(Date.now() / 1000);
-        console.log("tokenparrt",tokenParts.exp)
             if(tokenParts.exp > now){
                 setAuthenticate(true)
             }else{
-                console.log("Your token has expired")
                 setAuthenticate(false)
                 navigate('/logout')
             }
         }else{
-            console.log("No Token present hence not authorized")
             setAuthenticate(false)
         }
     }

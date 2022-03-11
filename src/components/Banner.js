@@ -8,7 +8,6 @@ import {Link} from "react-router-dom"
 
 function Banner() {
     const [movie, setMovie] = useState([])
-    console.log("Movie",movie)
     useEffect(() => {
         async function fetchData() {
             const response = await instance.get(requests.fetchTrending)

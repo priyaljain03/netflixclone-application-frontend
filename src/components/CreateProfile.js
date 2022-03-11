@@ -39,7 +39,6 @@ function CreateProfile() {
         const errs = ["heelo"]
         errs.push(err.message)
         setErrors(errs)
-        console.log(err.message)
       })
     }
 

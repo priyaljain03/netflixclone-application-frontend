@@ -14,20 +14,17 @@ function Detail(props) {
     useEffect(()=>{
         axiosInstance.get(`movie/${state.id}`)
         .then(res=>{
-            console.log("Data",res.data)
-            console.log("Data1",res.data.movie)
-            console.log("Data2",res.data.videos)
             setMovie(res.data.movie)
             setVideos(res.data.videos)
         })
         .catch(err=>{
-            console.log(err)
+            
         })
     },[])
 
 
     return (<div className="wrapper" >
-        <div className="banner" style={{background:`url("https://netflixclone-backend.herokuapp.com${movie.flyer}")`,backgroundSize:'cover'}}>
+        <div className="banner" style={{background:`url("${movie.flyer}")`,backgroundSize:'cover'}}>
         <Navbar />
         <div className="banner__content">
             <h1 className="banner__title">{movie.title}</h1>
@@ -44,7 +41,7 @@ function Detail(props) {
             <h3>Episodes</h3>
             {videos.map(video=>{
                 return <div className="episode__box">
-                    <Link to="/play" state={{ src: `${baseURL}${video.videofile}`}}><img src={`http://localhost:8000${movie.flyer}`} /></Link>
+                    <Link to="/play" state={{ src: `${video.videofile}`}}><img src={`${movie.flyer}`} /></Link>
                     <div className="episode__about">
                         <span>{video.title}</span>
                        <p>{video.description}</p>

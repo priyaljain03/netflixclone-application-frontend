@@ -14,7 +14,6 @@ function Navbar() {
         axiosInstance.get(`user/profiles/`)
         .then(res=>{
             setProfiles(res.data)
-            console.log("profiles",res.data)
         })
 
         window.addEventListener("scroll", () => {
@@ -37,12 +36,12 @@ function Navbar() {
             </div>
             
             {/* <div className="right__items"> */}
-                <Link to="/logout" className="home__logout" >Logout</Link>
                 
-                <div class="dropdown">
+                
+                <div className="dropdown">
+                
                     <Link to="/profiles" className="dropbtn"><img 
                     src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"></img></Link>
-
                 </div>
             {/* </div> */}
         </div >
