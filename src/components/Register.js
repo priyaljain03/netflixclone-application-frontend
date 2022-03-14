@@ -38,7 +38,7 @@ function Register() {
         e.preventDefault()
         if (isError() === false) {
 
-            const response = await fetch("http://netflixclone-backend.herokuapp.com/api/user/register/", {
+            const response = await fetch("https://netflixclone-backend.herokuapp.com/api/user/register/", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

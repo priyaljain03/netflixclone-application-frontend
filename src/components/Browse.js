@@ -17,6 +17,14 @@ function Browse() {
             <Row title="Netflix originals" isLargeRow isNetflixOriginals={true} profileId={state?state.profileId:""}/>
             <Row title="Comedy" genre="comedy" profileId={state?state.profileId:""}/>
             <Row title="Fantasy" genre="fantasy"profileId={state?state.profileId:""}/>
+            <Row title="Action" genre="action"profileId={state?state.profileId:""}/>
+            <Row title="Romance" genre="romance"profileId={state?state.profileId:""}/>
+            <Row title="Documentary" genre="documentary"profileId={state?state.profileId:""}/>
+            <Row title="Horror" genre="horror"profileId={state?state.profileId:""}/>
+            <Row title="Mystery" genre="mystery"profileId={state?state.profileId:""}/>
+            <Row title="Thriller" genre="thriller"profileId={state?state.profileId:""}/>
+            <Row title="Crime" genre="crime"profileId={state?state.profileId:""}/>
+            <Row title="Sci-Fi" genre="sci-fi"profileId={state?state.profileId:""}/>
             <Footer backColor="black" />
         </div>
     )
